@@ -1,44 +1,95 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Rafael B. Nunn</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   
+
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
 </head>
+
 <body>
-<div class="bigWrap">
-    <div class="header">
-        
- <div class="headerContent">
-     <div id="myNameBox">
-            <h2 id="nameText">Rafael B. Nunn</h2>
-     </div>
-        <div id="headerNav">
-    <ul >
-            <li class="navLink"><a href="index.html">About Me</a></li> |
-            <li class="navLink active"><a href="portfolio.html">My Portfolio</a></li> |
-            <li class="navLink "><a href="contact.html"> Contact Me!</a></li>
-    </ul>
-        </div>
-</div>
-    </div>
 
-<section class ="mainBodyCont">
-    <div class="mainContentPanel">
-            <div class="mainContent">
-                    <h2 id="mainHeader">Portfolio</h2>
-                    <hr id="headerSep">
+<div class="pageCont">
+       <section class="contentContainer">
+
+        <!-- Leave alone -->
+        <section class="header">
+            <div class="headerContent">
+                <div id="myNameBox">
+                    <h2 id="nameText">Rafael B. Nunn</h2>
                 </div>
-    </div>
-</section>
+                <div id="headerNav">
+                    <ul>
+                        <li class="navLink"><a href="index.html">About Me</a></li> |
+                        <li class="navLink active"><a href="portfolio.html">My Portfolio</a></li> |
+                        <li class="navLink "><a href="contact.html"> Contact Me!</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    
+        <div class="mainContentPanel">
+            <div class="mainContent">
+                <h2 id="mainHeader">Portfolio</h2>
+                <hr id="headerSep">
 
-<div class="footer">
-        <p>Copyright 2019</p>
-      </div>
+                <div class="flex_cont">
+    <!-- First col -->
+                    <section class="flex_col">
+                        <div class="picBlock">
+                                <div class="iconBanner"> 
+                                    <h4 class="bannerText">Hangman </h4> </div>  
+                            <img src="Assets/images/hangman.jpg" class="picLink" alt="hangman"/>                                                  
+
+                        </div>
+
+                        <div class="picBlock">
+                                <div class="iconBanner"> 
+                                <h4 class="bannerText">Trivia Game </h4> </div>  
+                            <img src="Assets/images/trivia.jpg" class="picLink" />
+                        </div>
+                        <div class="picBlock">
+                                <div class="iconBanner"> 
+                                <h4 class="bannerText">Rock Paper Scissors </h4> </div>  
+                                <img src="Assets/images/rps.jpg" class="picLink" />
+                            </div>
+                    </section>
+<!-- second col -->
+                    <section class="flex_col">
+
+                            <div class="picBlock">
+                                    <div class="iconBanner"> 
+                                    <h4 class="bannerText">Role Playing Game </h4> </div>  
+                                    <img src="Assets/images/rpg.jpg" class="picLink" />
+                                </div>
+                        <div class="picBlock">
+                                <div class="iconBanner"> 
+                                <h4 class="bannerText">Rutgers Info Widget </h4> </div>  
+                            <img src="Assets/images/rutgers.jpg" class="picLink" />
+                        </div>
+                        
+                    </section>
+                </div>
+            </div>
+        </div>
 
 
-</body>
+               
+        
+
+    </section>
+       <!-- end page container -->
+</div>
+
+<footer class="footer">
+        <div id="footerText">Copyright 2019</div>
+    </footer>
+
+ 
+   
+  </body>
+
 </html>
