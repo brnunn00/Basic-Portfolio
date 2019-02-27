@@ -220,9 +220,10 @@ padding: 14px 16px;
 #footerText{
     text-align: center;
     width: 100%;
-    position: fixed;
+    position: relative;
     bottom: 0;
     color:lightgrey;
     padding-bottom: 5px;
+    padding-top:35px;
       
 }
